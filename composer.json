@@ -1,0 +1,16 @@
+{
+    "name": "lvieira/sculptor-admin",
+    "description": "Admin Template using Sculptor CSS Framework",
+    "type": "library",
+    "require": {
+        "1fabiosoares/sculptor": "^0.1.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas S. Vieira",
+            "email": "lucassouzavieiraengcomp@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
