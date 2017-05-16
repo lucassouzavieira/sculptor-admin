@@ -8,6 +8,7 @@
 
 var gulp = require('gulp');
 var coffee = require('gulp-coffee');
+var copy = require('gulp-copy');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
@@ -42,3 +43,4 @@ gulp.task('watch', function () {
    gulp.watch(scriptAssets, ['scripts']);
 });
 
+gulp.task('default', ['scripts']);
